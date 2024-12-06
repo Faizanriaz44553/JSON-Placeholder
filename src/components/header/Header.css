@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.links ul li {
+    color: var(--blue-dark);
+    font-size: larger;
+    font-family: "Poppins", serif;
+}
+
+.links {
+    width: 50%;
+    margin-top: 20px;
+}
+
+h3 {
+    color: var(--blue-dark);
+}
+
+.moblile-nav {
+    display: none;
+}
+
+@media (max-width: 576px) {
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .moblile-nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar{
+        display: none;
+    }
+    .nav-icon{
+        width: 20px;
+        height: 20px;
+        color: var(--black-color);
+    }
+    .nav-icon-img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+}

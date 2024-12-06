@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #3B82F6; /* Main/Primary Color */
+  --white-color: #FFFFFF; /* White */
+  --gray-dark: #374151; /* Dark Gray */
+  --black-color: #000000; /* Black */
+  --blue-dark: #263E52; /* Dark Blue */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
